@@ -106,7 +106,7 @@ std::vector<cv::Point3f> Generate3DPoints()
   points.push_back(cv::Point3f(x,y,z));
  
   x=-.5;y=-.5;z=-.5;
-  points.push_back(cv::Point3f(x,y,z));
+     points.push_back(cv::Point3f(x,y,z));
  
   x=-.5;y=-.5;z=.5;
   points.push_back(cv::Point3f(x,y,z));
